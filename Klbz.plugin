@@ -1,4 +1,5 @@
-hostname = claritywallpaper.com
+[Mitm]
+hostname =claritywallpaper.com
 
 [Script]
 http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll)$ script-path= https://github.com/ddgksf/Scripts/raw/dev/ClarityProCrack.js, requires-body=true, binary-body-mode=true, timeout=10, tag=KL
